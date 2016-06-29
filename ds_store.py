@@ -74,5 +74,5 @@ if __name__ == '__main__':
         path = sys.argv[1]
 
     ds = DsStore()
-    f=open(path,'br')
+    f=open(path,'rb')
     ds.read(f)
